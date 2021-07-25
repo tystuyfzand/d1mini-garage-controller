@@ -1,0 +1,23 @@
+{
+    "ssid": "SSID",
+    "passphrase": "",
+    "mqttHost": "192.168.1.1",
+    "name": "Garage",
+    "doors": {
+        "garageLeft": {
+            "name": "Left",
+            "outputPin": 5,
+            "inputPin": 13
+        },
+        "garageRight": {
+            "name": "Right",
+            "outputPin": 4,
+            "inputPin": 15
+        }
+    },
+    "webUpdater": {
+        "enabled": true,
+        "username": "admin",
+        "password": "admin"
+    }
+}
